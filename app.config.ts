@@ -1,7 +1,7 @@
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: '开源与生活',
+    description: '使用开源软件和资源，更安全、更便捷地过上新自然生活',
     image: {
       src: '/social-card-preview.png',
       alt: 'An image showcasing my project.',
@@ -13,7 +13,7 @@ export default defineAppConfig({
       logo: {
         path: '/logo.svg', // path of the logo
         pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'alpine' // alt of the logo
+        alt: '开源与生活' // alt of the logo
       }
     },
     footer: {
@@ -35,7 +35,7 @@ export default defineAppConfig({
       }
     },
     form: {
-      successMessage: 'Message sent. Thank you!'
+      successMessage: '消息已发送'
     }
   }
 })
